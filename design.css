@@ -112,27 +112,28 @@
         border-radius: 50%;
         justify-content: center;
         position: relative;
-        margin: 25%;
+        margin: 10%;
         z-index: auto;
+        float: right;
     }
     .small-red{
         background-color: #E6563b;
-        margin-right: 4em;
-        margin-left: 4em;
+        /*margin-right: 4em;*/
+        /*margin-left: 4em;*/
     }
     .small-orange{
         background-color: #EB9D3A;
-        margin-right: 4em;
-        margin-left: 4em;
+        /*margin-right: 4em;*/
+        /*margin-left: 4em;*/
     }
     .small-green{
         background-color: #7CB06C;
-        margin-right: 4em;
-        margin-left: 4em;
+        /*margin-right: 4em;*/
+        /*margin-left: 4em;*/
     }
     .small-teal{
         background-color: #00ABA9;
-        margin-right: 4em;
-        margin-left: 4em;
+        /*margin-right: 4em;*/
+        /*margin-left: 4em;*/
     }
 }
