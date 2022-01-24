@@ -5,19 +5,29 @@
         /*justify-content: center;*/
         /*align-items: center;*/
         font-family: 'Anton', sans-serif;
-        background-color: #F0F0F0;
+        background-color: #E6E6E6;
 
     }
     h1 {
         text-align: center;
         font-size: 64px;
     }
+    .img-background{
+        width: 100%;
+        height: 25%;
+        position: absolute;
+        background-color: #F0F0F0;
+        z-index: auto;
+    }
     img {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        max-width: 50%;
-
+        width: 105px;
+        height: 105px;
+        background-color: #F0F0F0;
+        /*float: top;*/
+        /*z-index: 1;*/
     }
     .menu {
         text-align: center;
@@ -31,9 +41,6 @@
         justify-content: space-evenly;
 
     }
-    p {
-
-    }
     h2 {
         font-size: 48px;
         font-weight: lighter;
@@ -44,5 +51,38 @@
     }
     .bottom-half {
         text-align: center;
+        margin-top: 1em;
+    }
+
+    .circles, .red, .orange, .green, .teal{
+        width: 105px;
+        height: 105px;
+        border-radius: 50%;
+        display: inline-block;
+        position: relative;
+        margin-right: auto;
+        margin-left: auto;
+        z-index: auto;
+    }
+    .red{
+        background-color: #E6563b;
+        border: 5px solid white;
+    }
+    .orange{
+        background-color: #EB9D3A;
+        border: 5px solid white;
+    }
+    .green{
+        background-color: #7CB06C;
+        border: 5px solid white;
+    }
+    .teal{
+        background-color: #00ABA9;
+        border: 5px solid white;
+    }
+    p{
+        display: flex;
+        text-align: center;
+        align-items: center;
     }
 }
