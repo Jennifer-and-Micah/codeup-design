@@ -1,11 +1,11 @@
-@media screen and (max-width: 576px){
+@media screen and (max-width: 575px){
     body {
         display: inline;
         /*flex-flow: row wrap;*/
         /*justify-content: center;*/
         /*align-items: center;*/
         background-color: #E6E6E6;
-
+        font-family: Abel, sans-serif;
     }
     h1 {
         font-family: 'Anton', sans-serif;
@@ -34,7 +34,7 @@
     }
     .menu {
         width: 105px;
-        height: 105px;
+        /*height: 105px;*/
         text-align: center;
         font-family: 'Anton-regular', sans-serif;
     }
@@ -74,7 +74,7 @@
         height: 105px;
         border-radius: 50%;
         justify-content: center;
-        margin: 25%;
+        margin: 20%;
         z-index: auto;
         color: #E6E6E6;
     }
@@ -147,4 +147,112 @@
         /*margin-left: 4em;*/
     }
 
+}
+@media screen and (min-width: 576px){
+    body {
+        display: inline;
+        /*flex-flow: row wrap;*/
+        /*justify-content: center;*/
+        /*align-items: center;*/
+        background-color: #E6E6E6;
+        font-family: Abel, sans-serif;
+    }
+    h1 {
+        font-family: 'Anton', sans-serif;
+        text-align: center;
+        font-size: 44px;
+    }
+    .img-background{
+        display: block;
+        width: 100%;
+        height: 50px;
+        position: absolute;
+        background-color: #F0F0F0;
+        z-index: auto;
+        top: 3vh;
+    }
+    .logo {
+        display: block;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 105px;
+        height: 105px;
+        /*float: top;*/
+        z-index: 1;
+
+    }
+    .easy-menu{
+        padding: 1em;
+        margin-left: 2em;
+    }
+    .e-menu{
+        padding: 1em;
+        margin-right: 2em;
+    }
+    h2 {
+        font-size: 48px;
+        font-weight: lighter;
+        text-align: center;
+        font-family: 'Abel', sans-serif;
+    }
+
+    h5{
+        font-size: 28px;
+        font-family: 'Anton-regular', sans-serif;
+        text-align: center;
+    }
+    h3{
+        font-family: 'Anton', sans-serif;
+        text-align: center;
+    }
+    .circles, .red, .orange, .green, .teal{
+        font-family: 'Anton', sans-serif;
+        width: 105px;
+        height: 105px;
+        border-radius: 50%;
+        /*justify-content: center;*/
+        /*margin: 20%;*/
+        z-index: auto;
+        color: #E6E6E6;
+    }
+    .red{
+        background-color: #E6563b;
+        border: 5px solid white;
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+    .orange{
+        background-color: #EB9D3A;
+        border: 5px solid white;
+        margin-right: 5em;
+        margin-left: 5em;
+    }
+    .green{
+        background-color: #7CB06C;
+        border: 5px solid white;
+        margin-right: 10em;
+        margin-left: 10em;
+    }
+    .teal{
+        background-color: #00ABA9;
+        border: 5px solid white;
+        margin-right: 15em;
+        margin-left: 15em;
+    }
+    p{
+        /*display: flex;*/
+        padding-top: 2em;
+        text-align: center;
+        align-items: center;
+    }
+    hr{
+        width: 80%;
+    }
+    .apple, .computer, .man, .security{
+        border: 10px solid #F0F0F0;
+        width: 100%;
+        /*height: 85%;*/
+        /*margin-bottom: 2em;*/
+    }
 }

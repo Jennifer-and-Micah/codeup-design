@@ -11,14 +11,24 @@
     <title>Codeup Design</title>
 </head>
 <body>
-<div class="img-background">
-
+<div class="img-background d-flex justify-content-between">
+    <ul class="nav justify-content-between align-items-center text-uppercase">
+        <li class="nav-item easy-menu">Services</li>
+        <li class="nav-item easy-menu">Works</li>
+    </ul>
+    <ul class="nav justify-content-between align-items-center text-uppercase">
+        <li class="nav-item e-menu">Blog</li>
+        <li class="nav-item e-menu">Contact</li>
+    </ul>
 </div>
-<img src="images/logo.png" class="logo" alt="logo">
+<div class="top-container">
+    <img src="images/logo.png" class="logo" alt="logo">
+</div>
+
 <h2>codeup design</h2>
 <br>
 
-<div class="container-fluid">
+<div class="container-fluid d-sm-none d-md-none d-lg-none">
     <div class="row">
         <div class="menu col-12 ">
             <ol class="d-flex justify-content-around text-uppercase">
@@ -39,25 +49,26 @@
 <div class="container">
     <div class="circles d-flex align-items-center text-uppercase">
         <div class="row">
-            <div class="col-6">
+            <div class="col-6 col-sm-1">
                 <p class="red">Design</p>
             </div>
-            <div class="col-6">
+            <div class="col-6 col-sm-1">
                 <p class="orange">Develop</p>
             </div>
-            <div class="col-6">
+            <div class="col-6 col-sm-1">
                 <p class="green">Support</p>
             </div>
-            <div class="col-6">
+            <div class="col-6 col-sm-1">
                 <p class="teal">Host</p>
             </div>
         </div>
     </div>
 </div>
+<hr class="d-xs-none">
 <br>
 <div class="bottom-half">
-    <div class="text-uppercase">Selected Work</div>
-    <div class="container">
+    <div class="text-uppercase d-flex justify-content-center">Selected Work</div>
+    <div class="container d-sm-none d-md-none d-lg-none">
         <div class="row">
             <div class="col">
                 <img src="images/apple-ipad.jpg" class="apple" alt="apples">
@@ -68,22 +79,113 @@
                 <div class="text-uppercase">Featured Project</div>
             </div>
             <div class="col-1">
-                <div class="small-circles small-red">D</div>
+                <div class="d-flex align-items-center small-circles small-red">D</div>
             </div>
             <div class="col-1">
-                <div class="small-circles small-orange">D</div>
+                <div class="d-flex align-items-center small-circles small-orange">D</div>
             </div>
             <div class="col-1">
-                <div class="small-circles small-green">S</div>
+                <div class="d-flex align-items-center small-circles small-green">S</div>
             </div>
             <div class="col-1">
-                <div class="small-circles small-teal">H</div>
+                <div class="d-flex align-items-center small-circles small-teal">H</div>
             </div>
         </div>
     </div>
-</div>
-</div> </div>
-</div>
+    <!-- Apples -->
+    <div class="container d-xs-none">
+        <div class="row row-cols-2">
+            <div class="col-sm-6">
+                <img src="images/apple-ipad.jpg" class="apple" alt="apples">
+            </div>
+        </div>
+        <div class="row justify-content-end">
+            <div class="col-8">
+                <div class="text-uppercase">Featured Project</div>
+            </div>
+            <div class="col-1">
+                <div class="d-flex align-items-center small-circles small-red">D</div>
+            </div>
+            <div class="col-1">
+                <div class="d-flex align-items-center small-circles small-orange">D</div>
+            </div>
+            <div class="col-1">
+                <div class="d-flex align-items-center small-circles small-green">S</div>
+            </div>
+            <div class="col-1">
+                <div class="d-flex align-items-center small-circles small-teal">H</div>
+            </div>
+        </div>
+        <!-- Computers -->
+        <div class="row row-cols-2">
+            <div class="col-sm-6">
+                <img src="images/macbook.jpg" class="computer" alt="computer">
+            </div>
+        </div>
+        <div class="row justify-content-end">
+            <div class="col-8">
+                <div class="text-uppercase">Featured Project</div>
+            </div>
+            <div class="col-1">
+                <div class="d-flex align-items-center small-circles small-red">D</div>
+            </div>
+            <div class="col-1">
+                <div class="d-flex align-items-center small-circles small-orange">D</div>
+            </div>
+            <div class="col-1">
+                <div class="d-flex align-items-center small-circles small-green">S</div>
+            </div>
+            <div class="col-1">
+                <div class="d-flex align-items-center small-circles small-teal">H</div>
+            </div>
+        </div>
+        <!-- Code Man -->
+        <div class="row row-cols-2">
+            <div class="col-sm-6">
+                <img src="images/man.jpg" class="man" alt="code man">
+            </div>
+        </div>
+        <div class="row justify-content-end">
+            <div class="col-8">
+                <div class="text-uppercase">Featured Project</div>
+            </div>
+            <div class="col-1">
+                <div class="d-flex align-items-center small-circles small-red">D</div>
+            </div>
+            <div class="col-1">
+                <div class="d-flex align-items-center small-circles small-orange">D</div>
+            </div>
+            <div class="col-1">
+                <div class="d-flex align-items-center small-circles small-green">S</div>
+            </div>
+            <div class="col-1">
+                <div class="d-flex align-items-center small-circles small-teal">H</div>
+            </div>
+        </div>
+        <!-- Security -->
+        <div class="row row-cols-2">
+            <div class="col-sm-6">
+                <img src="images/security.jpg" class="security" alt="security">
+            </div>
+        </div>
+        <div class="row justify-content-end">
+            <div class="col-8">
+                <div class="text-uppercase">Featured Project</div>
+            </div>
+            <div class="col-1">
+                <div class="d-flex align-items-center small-circles small-red">D</div>
+            </div>
+            <div class="col-1">
+                <div class="d-flex align-items-center small-circles small-orange">D</div>
+            </div>
+            <div class="col-1">
+                <div class="d-flex align-items-center small-circles small-green">S</div>
+            </div>
+            <div class="col-1">
+                <div class="d-flex align-items-center small-circles small-teal">H</div>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 </html>
