@@ -1,5 +1,12 @@
+/* extra small screen */
 @media screen and (max-width: 575px){
     .sm-bottom-half {
+        display: none;
+    }
+    .md-bottom-half{
+        display: none;
+    }
+    .new-header{
         display: none;
     }
     body {
@@ -153,10 +160,14 @@
        display: none;
     }
 }
+/* Small Scree */
 @media screen and (min-width: 576px){
     .xs-bottom-half{
         display: none;
     }
+    /*.md-bottom-half{*/
+    /*    display: none;*/
+    /*}*/
     body {
         display: inline;
         /*flex-flow: row wrap;*/
@@ -299,7 +310,17 @@
         /*margin-right: 2.5em;*/
         margin-left: .5em;
     }
-    .nav {
+}
+/* Medium Screen */
+@media screen and (min-width:768px) {
+    .xs-bottom-half{
         display: none;
     }
+    .easy-menu{
+
+    }
+    .e-menu{
+
+    }
+
 }
