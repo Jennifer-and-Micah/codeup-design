@@ -4,13 +4,13 @@
         /*flex-flow: row wrap;*/
         /*justify-content: center;*/
         /*align-items: center;*/
-        font-family: 'Anton', sans-serif;
         background-color: #E6E6E6;
 
     }
     h1 {
+        font-family: 'Anton', sans-serif;
         text-align: center;
-        font-size: 64px;
+        font-size: 48px;
     }
     .img-background{
         display: block;
@@ -33,11 +33,13 @@
 
     }
     .menu {
+        width: 105px;
+        height: 105px;
         text-align: center;
         font-family: 'Anton-regular', sans-serif;
     }
     ol li {
-        /*display: inline;*/
+        font-family: 'Abel', sans-serif;
         display: flex;
         list-style: none;
         float: left;
@@ -49,10 +51,20 @@
         font-size: 48px;
         font-weight: lighter;
         text-align: center;
-        font-family: 'Anton-regular', sans-serif;
+        font-family: 'Abel', sans-serif;
     }
-    h3 {
-         text-align: center;
+    .small-titles {
+        text-align: center;
+        font-family: 'Abel', sans-serif;
+    }
+    h5{
+        font-size: 28px;
+        font-family: 'Anton-regular', sans-serif;
+        text-align: center;
+    }
+    h3{
+        font-family: 'Anton', sans-serif;
+        text-align: center;
     }
     .bottom-half {
         text-align: center;
@@ -60,6 +72,7 @@
     }
 
     .circles, .red, .orange, .green, .teal{
+        font-family: 'Anton', sans-serif;
         width: 105px;
         height: 105px;
         border-radius: 50%;
@@ -105,16 +118,16 @@
         border: 10px solid #F0F0F0;
         width: 85%;
         height: 85%;
+        margin-bottom: 2em;
     }
     .small-circles, .small-red, .small-green, .small-orange, .small-teal{
         width: 18px;
         height: 18px;
         border-radius: 50%;
         justify-content: center;
-        position: relative;
-        margin: 10%;
-        z-index: auto;
-        float: right;
+        margin-left: 3em;
+        /*z-index: auto;*/
+        /*float: right;*/
     }
     .small-red{
         background-color: #E6563b;
@@ -136,4 +149,5 @@
         /*margin-right: 4em;*/
         /*margin-left: 4em;*/
     }
+
 }
